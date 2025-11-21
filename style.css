@@ -1,0 +1,237 @@
+*{ 
+margin: 5px;
+}
+
+:root{ 
+    --primary-color: #24272B; /* Black */
+  --secondary-color: #343638; /* Gray */
+  --button-selected-color: #EB9D6E; /* Orange */
+  --white-boxes-color: #FFFFFF; /* White */
+  --primary-button-color: #5D9AC0; /* Cyan */
+  --text-color: #FFFFFF; /* Light text */
+  --secondary-text-color: #9E9FA1; /* Gray text */
+  --dark-text-color: #24272B; /* Dark text */
+  --background-color: #fff; /* White background */
+ font-family: "Montserrat", sans-serif;
+ font-weight: normal;
+ }
+
+div.footer{ 
+width: 100%;
+text-align: center;
+color: var(--secondary-text-color); /*grey text*/
+font-size: 10px;
+background-color: var(--primary-color);
+font-weight: normal;
+}
+
+div.lower-footer a.footer-elmt img{ 
+width: 24px;
+height: 24px;
+padding: 5px;
+margin: 2px;
+}
+
+div.left-header input{ 
+width: 256px;
+height: auto;
+padding: 5px;
+border-radius: 50%;
+text-decoration: none;
+border-radius: 10px;
+background-color: var(--secondary-color);
+}
+
+div.left-header img.left-hdr-elmt{ 
+border: #24272B;
+}
+
+div.right-header a.right-hdr-elmt img{ 
+width: 24px;
+height: 24px;
+padding: 0px;
+margin: 1px;
+float: right;
+}
+
+div.right-header a.right-hdr-elmt{ 
+float: right;
+text-decoration: none;
+font-weight: bold;
+color: var(--text-color);
+}
+
+div.right-header a.right-hdr-elmt:hover{ 
+color: var(--button-selected-color);
+transition: 0.2s;
+font-weight: bold;
+}
+
+div.right-header a.right-hdr-elmt img:hover{ 
+background-color: var(--button-selected-color);
+transition: 0.2s;
+}
+
+div.center-header .center-hdr-elmt{ 
+text-align: center;
+}
+
+#mainname{ 
+font-family:"Playwrite DE SAS", cursive;
+font-size: 72px;
+text-align: center;
+color: var(--text-color);
+}
+
+body{ 
+background-color: var(--primary-color);
+}
+
+header div.header div.left-header img.left-hdr-elmt{ 
+position: absolute
+}
+
+div.center-header h2.center-hdr-elmt{ 
+text-align: center;
+color: var(--text-color);
+font-weight: normal;
+}
+
+div.center-header h4.center-hdr-elmt{ 
+text-align: center;
+color: var(--secondary-text-color);
+font-weight: normal;
+font-size: 12px;
+}
+
+div.center-header h4.center-hdr-elmt{ 
+text-align: center;
+color: var(--secondary-text-color);
+font-weight: normal;
+font-size: 12px;
+}
+
+aside div.aside div.aside-down img.aside-elmt{ 
+width: 24px;
+height: 24px;
+padding: 0px;
+margin: 1px;
+float: left;
+}
+
+aside div.aside div.aside-down a.aside-elmt{ 
+text-decoration: none;
+font-weight: normal;
+color: var(--secondary-text-color);
+}
+
+aside div.aside div.aside-down a.aside-elmt:hover{ 
+background-color: var(--button-selected-color);
+color: var(--text-color);
+transition: 0.2s;
+}
+
+aside div.aside div.aside-up a.aside-elmt-btns{ 
+text-decoration: none;
+font-weight: normal;
+color: var(--secondary-text-color);
+}
+
+aside div.aside div.aside-up a.aside-elmt-btns:hover{ 
+background-color: var(--button-selected-color);
+color: var(--text-color);
+transition: 0.2s;
+}
+
+aside div.aside div.aside-up a.aside-elmt-btns:hover{ 
+background-color: var(--button-selected-color);
+color: var(--text-color);
+transition: 0.2s;
+}
+
+aside div.aside div.aside-down h3.aside-elmt{ 
+color: var(--text-color);
+font-weight: normal;
+}
+
+main div.main-nav a img.main-elmt{ 
+width: 16px;
+height: 16px;
+padding: 0px;
+margin: 1px;
+}
+
+main div.main-nav img.main-elmt{ 
+width: 756px;
+height: 384px;
+padding: 0px;
+margin: 1px;
+text-align: center;
+}
+
+main div.main-down img.main-elmt{ 
+width: 100%;
+height: 256px;
+padding: 0px;
+margin: 1px;
+}
+
+.main-down{ 
+ display: grid; /* Makes the container a grid container */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates responsive columns */
+  gap: 20px; /* Adds space between grid items */
+}
+
+.card1, .card2, .card3, .card4{ 
+ box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border: 1px solid #ccc;
+text-align: left;
+}
+
+.main-nav h1, h2,h3,h4{ 
+color: var(--text-color);
+font-weight: normal;
+}
+
+.main-nav #buttona{ 
+color: var(--text-color);
+text-decoration: none;
+background-color: var(--primary-button-color);
+border: 8px solid var(--primary-button-color);
+}
+
+.main-nav #buttona:hover{ 
+color: var(--dark-text-color);
+text-decoration: none;
+background-color: var(--button-selected-color);
+border: 8px solid var(--button-selected-color);
+transition: 0.2s;
+}
+
+.card1 h4, .card2 h4, .card3 h4, .card4 h4{ 
+ color: var(--secondary-text-color);
+}
+
+.card1 a, .card2 a, .card3 a, .card4 a{ 
+ color: var(--secondary-text-color);
+ text-decoration: none;
+}
+
+.card1 a:hover, .card2 a:hover, .card3 a:hover, .card4 a:hover{ 
+ color: var(--text-color);
+ transition: 0.2s;
+}
+
+.main-nav h1, .main-nav h2,  .main-nav h3,  .main-nav h4{ 
+ text-align: right;
+}
+
+.main-nav h4.main-elmt{ 
+ color: var(--secondary-text-color);
+}
+
+.main-nav h2.main-elmt{ 
+color: var(--text-color);
+ text-align: center;
+}
